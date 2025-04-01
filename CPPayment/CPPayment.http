@@ -1,0 +1,6 @@
+@CPPayment_HostAddress = http://localhost:5099
+
+GET {{CPPayment_HostAddress}}/api/Payments/GetPayments
+Accept: application/json
+
+###
